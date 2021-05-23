@@ -3,6 +3,7 @@
     --second-color: #757575;
     --hover-color: #2196F3;
     --additional-color: #ffffff;
+    --portfolio-item-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 
@@ -250,6 +251,7 @@ img {
 
 .footer-sections {
     display: flex;
+    align-self: baseline;
 }
 
 .footer-container {
@@ -323,6 +325,11 @@ img {
     flex-basis: calc((100% - 90px)/3);
     margin-top: 30px;
     margin-left: 30px;
+}
+
+.portfolio-items .item:hover,
+.portfolio-items .item:focus {
+    box-shadow: var(--portfolio-item-shadow);
 }
 
 .portfolio-items .item-content {
