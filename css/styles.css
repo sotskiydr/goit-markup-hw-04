@@ -251,7 +251,7 @@ img {
 
 .footer-sections {
     display: flex;
-    align-self: baseline;
+    align-items: baseline;
 }
 
 .footer-container {
@@ -308,7 +308,6 @@ img {
 
 .footer-join {
     margin-left: 70px;
-    margin-top: 10px;
 }
 
 
