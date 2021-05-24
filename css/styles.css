@@ -401,6 +401,7 @@ img {
 /* Герой */
 
 .hero {
+    background-color: #2F303A;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-image.jpg);
     margin: 0 auto;
     max-width: 1600px;
